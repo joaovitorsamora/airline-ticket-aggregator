@@ -1,0 +1,34 @@
+# Variáveis de Ambiente (Segurança: nunca envie chaves de API ao Git)
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/*.local
+
+# Logs de Erros de Pacotes
+frontend/logs
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+
+# Pastas de Dependências e Build
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.next/
+frontend/.nuxt/
+
+# Diretórios de Editores e Arquivos do Sistema (Geral)
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
