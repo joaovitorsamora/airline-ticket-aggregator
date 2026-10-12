@@ -1,13 +1,20 @@
-## 📝 Descrição
-Breve descrição das mudanças introduzidas por este PR.
+## 📝 Description
+Brief description of the changes introduced by this PR.
 
-## 🚀 Épico Relacionado
-- [ ] FLT-EPIC-01: Fundação e workflow
+## 🚀 Related Epic / Issue
+- [ ] FLT-EPIC-01: Foundation and Workflow
 
-## 🧪 Como testar?
-- Instruções detalhadas de teste passo a passo.
+## 🧪 Executed Tests
+- [ ] Automated tests passed locally (`./mvnw verify` / `npm test`).
+- [ ] Manual verification step-by-step (Describe what you tested):
+  - *Example: Verified that the Spring Boot server starts cleanly on port 8080.*
 
-## 📋 Check-list
-- [ ] O código segue as diretrizes do `.editorconfig`?
-- [ ] Os testes locais (se aplicável) passaram?
-- [ ] Atualizou a documentação correspondente?
+## 📋 Quality Checklist
+- [ ] Code follows `.editorconfig` and linting rules.
+- [ ] Documentation updated (if applicable).
+
+## ⚠️ Risks & Impact
+- Describe potential risks or side effects of this change (e.g., performance impact, breaking changes).
+
+## 💡 Mock Data Notice
+- [ ] This PR utilizes mock data for testing/integration purposes, aligned with our current architectural stage.
