@@ -1,3 +1,6 @@
+![CI Pipeline](https://github.com/joaovitorsamora/airline-ticket-aggregator)
+
+
 # Projeto Monorepo Fullstack
 
 Este repositório adota a estratégia de **Monorepo**, unificando as camadas de frontend, backend e documentação em uma única estrutura de versionamento.
