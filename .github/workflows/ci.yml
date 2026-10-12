@@ -1,0 +1,45 @@
+name: CI Pipeline
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  # Validação do Backend (Java)
+  backend-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v4
+
+      - name: Configurar JDK 17 (ou sua versão de preferência)
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Validar Esqueleto Backend
+        run: |
+          echo "Simulando build/testes do Java..."
+          # Quando você escolher o framework (ex: Spring Boot), aqui será:
+          # ./mvnw clean package  OU  ./gradlew build
+          echo "Backend estruturado corretamente!"
+
+  # Validação do Frontend (Node.js)
+  frontend-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validar Esqueleto Frontend
+        run: |
+          echo "Simulando build/testes do Node..."
+          # Quando iniciar o projeto (ex: React/Next), aqui será:
+          # npm ci && npm run build
+          echo "Frontend estruturado corretamente!"
