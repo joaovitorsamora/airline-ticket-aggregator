@@ -14,6 +14,7 @@ class AirportTest {
 	@BeforeEach
 	void setUp(){
 		airport = new Airport("AC2", "Fake airport name", "Fake airport city", "America/Sao_Paulo");
+		
 	}
 
 	@Test
@@ -28,6 +29,8 @@ class AirportTest {
 		String iataOriginal = airport.iata().trim();
     	
     	assertTrue(iataOriginal.equals(iataOriginal.toUpperCase()), "IATA code must be uppercase");
+
+
 	}
 
 }
