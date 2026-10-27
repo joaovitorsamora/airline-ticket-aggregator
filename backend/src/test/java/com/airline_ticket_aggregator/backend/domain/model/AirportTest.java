@@ -13,7 +13,7 @@ class AirportTest {
 
 	@BeforeEach
 	void setUp(){
-		airport = new Airport("AC2", "Fake airport name", "Fake airport city", "2026-10-19T15:30:00-03:00");
+		airport = new Airport("AC2", "Fake airport name", "Fake airport city", "America/Sao_Paulo");
 	}
 
 	@Test
