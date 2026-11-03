@@ -56,7 +56,7 @@ jobs:
         run: npx tsc --noEmit
 
       - name: Run Tests
-        run: npm test -- --watchAll=false --passWithNoTests
+         run: npm run test:run -- --passWithNoTests
 
       - name: Build Frontend
         run: npm run build
